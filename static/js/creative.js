@@ -9,11 +9,11 @@
         }, 1250, 'easeInOutExpo');
         event.preventDefault();
     });
-
-    // Highlight the top nav as scrolling occurs
+    //
+    // // Highlight the top nav as scrolling occurs
     $('body').scrollspy({
         target: '.navbar-fixed-top',
-        offset: 51
+        offset: 5000,
     });
 
     // Closes the Responsive Menu on Menu Item Click
@@ -22,11 +22,7 @@
     });
 
     // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();

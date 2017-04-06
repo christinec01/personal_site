@@ -44,3 +44,6 @@ docs/_build
 
 # Virtualenvs
 env/
+.env
+.python-version
+bower_components/
